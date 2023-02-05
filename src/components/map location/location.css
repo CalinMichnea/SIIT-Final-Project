@@ -1,0 +1,23 @@
+.map-wrapper {
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+  background-color: black;
+}
+.map-marker {
+  font-size: medium;
+  display: flex;
+}
+.map-wrapper h1 {
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 0 0 3px #333d51, 0 0 5px #333d51;
+  font-size: 50px;
+  width: 80%;
+  border-top: 1px inset gray;
+}
+.title-container {
+  display: flex;
+  justify-content: center;
+}

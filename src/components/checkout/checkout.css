@@ -1,0 +1,61 @@
+.checkout-container {
+  background: linear-gradient(
+    0deg,
+    rgba(51, 61, 81, 1) 5%,
+    rgba(99, 107, 119, 1) 17%,
+    rgba(244, 243, 234, 1) 44%,
+    rgba(244, 243, 234, 1) 61%,
+    rgba(99, 107, 119, 1) 86%,
+    rgba(51, 61, 81, 1) 97%
+  );
+  height: 100vh;
+  display: flex;
+}
+.side-nav {
+  width: 15%;
+  color: white;
+  background-color: black;
+  min-height: 100vh;
+  border-right: 1px outset rgb(165, 165, 165);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #747474;
+}
+.side-nav h1 {
+  padding: 10px;
+}
+.form-wrapper {
+  color: black;
+  width: 30%;
+  margin-left: 100px;
+  margin-top: 3%;
+  overflow: scroll;
+}
+.mb-3 {
+  display: flex;
+  justify-content: space-between;
+}
+.form-control-class {
+  background-color: rgb(192, 192, 192);
+  height: 50px;
+  width: 70%;
+}
+.form-wrapper h2 {
+  padding-bottom: 10px;
+  border-bottom: 1px outset gray;
+}
+.form-label {
+  font-size: 20px;
+}
+.right-form-section {
+  color: black;
+  display: flex;
+  width: 30%;
+  margin-left: 100px;
+  margin-top: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.right-form-section h3 {
+  padding-bottom: 10px;
+  border-bottom: 1px outset gray;
+}

@@ -1,0 +1,25 @@
+.my-footer-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #333d51;
+  border-top: 1px solid gray;
+}
+.links-column {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.links-column span {
+  color: gray;
+}
+.svg-list {
+  display: flex;
+  padding-top: 50px;
+}
+.svg-list a {
+  padding-left: 10px;
+}

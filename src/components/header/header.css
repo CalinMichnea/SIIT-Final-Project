@@ -1,0 +1,14 @@
+.carousel-caption h1 {
+  font-size: 80px;
+  color: #f4f3ea;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 0 0 3px #333d51, 0 0 5px #333d51;
+}
+.carousel-caption p {
+  font-size: 30px;
+  color: #f4f3ea;
+  text-shadow: 0 0 3px #333d51, 0 0 5px #333d51;
+}
+.carousel-wrapper {
+  border: 1px solid gray;
+}
