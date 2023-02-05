@@ -26,7 +26,7 @@ function ShowLocation() {
         <h1>Come visit us</h1>
       </div>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyD1ZQg25RUbj8rXY1VNbqIf1t3UVqAU-ik" }}
+        bootstrapURLKeys={{ key: ""}}
         defaultCenter={locationInfo.center}
         defaultZoom={locationInfo.zoom}
       >
